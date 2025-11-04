@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body class="font-barlow">
-    <main class="bg-white-100 grid w-screen justify-center gap-8">
-      <div class="mx-5 my-20 grid gap-8">
+    <main class="bg-white-100 flex w-screen justify-center gap-8">
+      <div class="mx-5 my-20 grid max-w-sm gap-8 sm:max-w-4xl sm:grid-cols-2 sm:grid-rows-4">
         <article
-          class="shadow-drop flex max-w-sm flex-col gap-4 rounded-lg bg-purple-500 p-8 text-white"
+          class="shadow-drop col-end-2 flex flex-col gap-4 rounded-lg bg-purple-500 p-8 text-white sm:col-span-2"
         >
           <header class="flex items-center gap-4">
             <img
@@ -49,7 +49,8 @@
         </article>
 
         <article
-          class="shadow-drop bg-grey-500 flex max-w-sm flex-col gap-4 rounded-lg p-8 text-white"
+          class="shadow-drop bg-grey-500 flex flex-col gap-4 rounded-lg p-8 text-white"
+          max-w-sm
         >
           <header class="flex items-center gap-4">
             <img
@@ -75,7 +76,7 @@
         </article>
 
         <article
-          class="shadow-drop text-grey-400 flex max-w-sm flex-col gap-4 rounded-lg bg-white p-8"
+          class="shadow-drop text-grey-400 flex flex-col gap-4 rounded-lg bg-white p-8"
         >
           <header class="flex items-center gap-4">
             <img
@@ -98,7 +99,7 @@
         </article>
 
         <article
-          class="shadow-drop text-grey-100 bg-blue flex max-w-sm flex-col gap-4 rounded-lg p-8"
+          class="shadow-drop text-grey-100 bg-blue flex flex-col gap-4 rounded-lg p-8 sm:col-span-2"
         >
           <header class="flex items-center gap-4">
             <img
@@ -127,7 +128,7 @@
         </article>
 
         <article
-          class="shadow-drop text-grey-400 flex max-w-sm flex-col gap-4 rounded-lg bg-white p-8"
+          class="shadow-drop text-grey-400 flex flex-col gap-4 rounded-lg bg-white p-8 sm:col-span-2"
         >
           <header class="flex items-center gap-4">
             <img
